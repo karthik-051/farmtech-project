@@ -1,0 +1,224 @@
+* {
+  /* background: url(/static/images/bg1.jpg) no-repeat center center fixed; */
+  -webkit-background-size: 100%;
+  -moz-background-size: 16px;
+  -o-background-size: cover;
+  background-size: cover;
+
+  
+}
+
+
+
+body {
+  background: linear-gradient(135deg, #55fc18, #04792f);
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  color: #fff; /* Set text color to white for better visibility */
+}
+
+.container {
+    /* Set the image path or URL */
+    background-image: url(/static/images/happyfarmer.jpeg) no-repeat center center fixed;
+    
+    /* Set the background size to cover the entire container */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Ensure the background image is fixed */
+    background-attachment: fixed;
+
+    /* Add any additional styling you want for your container */
+    /* For example, setting a height */
+    height: 500px;
+    
+    /* Add padding or other styles as needed */
+    padding: 20px;
+}
+
+
+.navbar {
+  background-color: #423f3c;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  color: #fff; /* Set text color to white */
+}
+
+.nav-link {
+  color: whitesmoke;
+  font-weight:bold;
+  margin-right: 2rem;
+  border: 2px solid rgb(220, 124, 14);
+  border-radius: 3px;
+
+}
+.nav-link:hover{
+  font-size: larger;
+}
+
+.text-uppercase,
+.submission-text,
+.legend {
+  color: white;
+}
+
+.reference {
+  text-align: center;
+}
+
+.northkeysLogo {
+  position: relative;
+  right: 70px;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: white;
+  /* right: 40px; */
+}
+
+.jumbo-text {
+  margin-top: 30px;
+}
+
+.display-4 {
+  color: white;
+}
+
+.problem-statement {
+  color: white;
+}
+
+.img-fluid {
+  margin-bottom: 200px;
+  image-orientation: center;
+}
+
+.card-body {
+  background-color: #222; /* Dark background color for card bodies */
+  color: #fff; /* Set text color to white for card bodies */
+  font-weight: bold;
+}
+
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0, 0.8);
+  box-shadow: 0 8px 16px 4px rgba(255, 255, 255, 0.8);
+}
+
+.btn:hover {
+  background-color: rgb(170, 59, 59);
+  color: rgb(0, 0, 0);
+}
+
+::placeholder {
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+/* .form-text {
+    color: Black;
+} */
+
+#small-text {
+  background-color: blacksmoke;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Dark background color for the footer */
+  color: #fff; /* Set text color to white for the footer */
+}
+.my-contr {
+  color: Black;
+}
+
+.links {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.section-heading {
+  margin-bottom: 3rem;
+  color: #fff; /* Set text color to white for section headings */
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.card-header {
+  color: rgb(26, 24, 24);
+}
+/* .white-section{
+  margin-bottom: 2rem;
+} */
+
+.container {
+    overflow: hidden; /* Clear the floats */
+}
+
+.jumbotron {
+    /* float: left;
+    width: 70%; /* Adjust the width as needed */
+    padding: 7rem;
+    float: right;
+    width: 70%; /* Adjust the width as needed */
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+    text-align: left;
+    /* background-color: #f8f9fa; */
+}
+
+.jumbo-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.p1,
+.p2{
+font-weight: 200;
+    font-size: 1.5rem;
+}
+.p1{
+  text-align: left;
+}
+.p2{
+  text-align: right;
+}
+
+.img-container {
+    float: left;
+    width: 30%; /* Adjust the width as needed */
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.custom-hr {
+    border: none;
+    height: 4px; /* Adjust the overall thickness of the line */
+    background-color: #ccc; /* Adjust the color of the line */
+    display: block;
+    width: 100%; /* Adjust the width of the thicker middle portion */
+    height: 20rem;
+    background: linear-gradient(to right, transparent, white, transparent); /* Match the background color of your container */
+    margin: 20px auto; /* Adjust margin as needed */
+}
