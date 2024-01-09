@@ -1,0 +1,9 @@
+<!-- checkout.html -->
+<form action="/cart/checkout" method="post" th:object="${addressForm}">
+    <label for="addressLine">Address Line:</label>
+    <input type="text" id="addressLine" name="addressLine" th:field="*{addressLine}" required>
+
+    <!-- Add other address fields as needed -->
+
+    <button type="submit">Place Order</button>
+</form>

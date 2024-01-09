@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Platform</title>
+  <!-- Add any additional CSS styles or external libraries here -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* Add any custom styles here */
+    .gradient-custom-2 {
+      background: #fccb90;
+      background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+      background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+
+    @media (min-width: 768px) {
+      .gradient-form {
+        height: 100vh !important;
+        display: flex;
+        align-items: center; /* Vertically center content */
+      }
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+      padding: 30px;
+    }
+
+    /* Style the buttons */
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Login Section -->
+  <section class="h-100 gradient-form">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card text-black">
+            <div class="row g-0">
+              <div class="col-lg-6">
+                <div class="card-body p-md-5 mx-md-4">
+                  <div class="text-center">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" style="width: 185px;" alt="logo">
+                    <h4 class="mt-1 mb-5 pb-1">We are The Agriculture Team</h4>
+                  </div>
+
+                  <!-- Agriculture Platform Buttons -->
+                  <h1 class="mb-4">Welcome to the Agriculture Platform</h1>
+                  <h5 class="mb-4">Explore our services by clicking the buttons below:</h5>
+
+                  <!-- Button to predict crop -->
+                  <button class="btn btn-primary" onclick="predictCrop()">Crop Predict</button>
+
+                  <!-- Button to open Farmer Portal -->
+                  <button class="btn btn-success" onclick="openFarmerPortal()">Farmer Portal</button>
+
+                  <script>
+                    // Function to handle the "Crop Predict" button click
+                    function predictCrop() {
+                      // Add your logic for crop prediction here
+                      window.location.href = "http://127.0.0.1:5000";
+                    }
+
+                    // Function to handle the "Farmer Portal" button click
+                    function openFarmerPortal() {
+                      // Redirect to the "home.html" page
+                      window.location.href = "home.html";
+                    }
+                  </script>
+                </div>
+              </div>
+              
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+  <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+    <h4 class="mb-4">We are more than just a company</h4>
+    <p class="small mb-0">
+      <ul>
+        <li>Our farmer portal provides a user-friendly interface, allowing farmers to seamlessly manage their agricultural activities from planting to harvest.</li>
+        <li>Effortlessly track your crop cycles, monitor soil health, and receive personalized recommendations through our intuitive farmer portal.</li>
+        <li>Experience the convenience of online procurement and sales through our secure farmer portal, streamlining the agricultural supply chain.</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
